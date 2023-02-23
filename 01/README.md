@@ -3,7 +3,7 @@
 ## Preview
 
 <h1 align="center">
-  <img alt="Digital Business Card" src="" />
+  <img alt="Digital Business Card" src="./src/assets/captura17.PNG" />
 </h1>
 
 ### Instalação 
