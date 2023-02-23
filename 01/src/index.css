@@ -1,0 +1,117 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+body {
+    background-color: #23252C;
+    font-family: 'Inter', sans-serif;
+    color: #FFFFFF;
+    font-size: 25px;
+}
+
+.App {
+    width: 317px;
+    margin: 2% auto;
+    background-color: #1A1B21;
+}
+
+.grid {
+    display: grid;
+}
+
+.flex {
+    display: flex;
+}
+
+.Info {
+    gap: 15px;
+    margin-bottom: 30px;
+}
+
+.buttons {
+    justify-content: center;
+    gap: 17px;
+}
+
+.btn {
+    width: 115px;
+    height: 34px;
+    border-radius: 6px;
+
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    background-color: aqua;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.email {
+    background-color: #FFFFFF;
+    color: #374151;
+    background-image: url('./assets/mail.svg');
+    background-repeat: no-repeat;
+    background-position: 25% center;
+    padding-left: 5%;
+}
+
+.linkedin {
+    background-color: #5093E2;
+    color: #FFFFFF;
+    background-image: url('./assets/vector.svg');
+    background-repeat: no-repeat;
+    background-position: 15% center;
+    padding-left: 5%;
+}
+
+.Info img {
+    width: 317px;
+    height: 280px;
+    object-fit: cover;
+    object-position: center 15%;
+}
+
+.title {
+    text-align: center;
+}
+
+.About, .Interests {
+    margin-inline: 35px;
+    margin-bottom: 25px;
+}
+
+.Footer {
+    height: 64px;
+    background: #161619;
+    align-items: center;
+    justify-content: center;
+    gap: 24px;
+    
+}
+
+h1 {
+    font-weight: 700;
+    font-size: 25px;
+}
+
+h2 {
+    font-weight: 700;
+    font-size: 16px;
+}
+
+h3 {
+    font-weight: 400;
+    font-size: 12.8px;
+    color: #F3BF99;  
+}
+
+p {
+    font-weight: 400;
+    font-size: 10.24px;
+    line-height: 150%;
+}
